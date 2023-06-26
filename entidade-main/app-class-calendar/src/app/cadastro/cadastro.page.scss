@@ -1,0 +1,24 @@
+::-webkit-scrollbar, *::-webkit-scrollbar {
+    display: none;
+    overflow: hidden;
+}
+
+.scroll-content {
+    overflow: hidden;
+} 
+
+ion-content {
+    --background: linear-gradient(55deg, var(--ion-color-tertiary) 0%, var(--ion-color-primary) 100%);
+    overflow: hidden;
+    --overflow: hidden;
+    
+}
+
+.itemDesign {
+    border-radius: 20px;
+  }
+
+ion-row {
+    margin-left: 4vw;
+
+  }
